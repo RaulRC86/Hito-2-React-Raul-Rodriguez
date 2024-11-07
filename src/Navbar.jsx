@@ -1,16 +1,13 @@
+import { Link } from 'react-router-dom';
+
 const Navbar=() =>{
     return(
         <>
     <nav>
       <h4>Pizzería Mamma Mía!</h4>
-      <button>🍕Home</button>
-      <button>🔓Profile</button>
-      <button>🔐Login</button>
-      <button>🔒Logout</button>
-      <button>🔐Register</button>
-      <div className="totalCompra">
-      <button>🛒Total: $</button>
-    </div>
+      <Link to ="/"><button>🍕Home</button></Link>
+      <Link to ="/login"><button>🔐Login</button></Link>
+      <Link to ="/register"><button>🔐Register</button></Link>
     </nav>
         </>
     )
