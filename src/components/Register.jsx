@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const Formulario = () => {
     const [email, setEmail] = useState('');
     const [contraseña, setContraseña] = useState('');
