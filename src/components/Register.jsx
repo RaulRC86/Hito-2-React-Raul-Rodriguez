@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Formulario = () => {
+const Register = () => {
     const [email, setEmail] = useState('');
     const [contraseña, setContraseña] = useState('');
     const [confirmar, setConfirmar] = useState('');
@@ -68,4 +68,5 @@ const Formulario = () => {
       </>
     );
   };
-  
+
+  export default Register
